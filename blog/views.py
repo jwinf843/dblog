@@ -27,4 +27,4 @@ def home(request):
 	return render(request, 'blog_templates/home.html', context)
 
 def about(request):
-	return render(request, 'blog_templates/about.html')
+	return render(request, 'blog_templates/about.html', {'title': 'About'})
